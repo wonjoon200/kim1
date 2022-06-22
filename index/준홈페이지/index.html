@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>준 홈페이지</title>
+</head>
+<style>
+        nav{
+            background-color: yellowgreen;
+            color: white;
+            
+        }
+        h3{
+            text-shadow: 1px 1px 10px darkgray;
+            font-size: 50px;
+        }
+        form{
+            font-size: 40px;
+        }
+        input {
+        width:1900px;
+        height:50px;
+        font-size:30px;
+        }
+        li{
+            display: inline-block;
+            width: 300px;
+            font-size: 20px;
+        }
+        li :hover{
+            color: royalblue;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        @keyframes tcolor{
+            0%{color:red}
+            50%{color:blueviolet}
+            100%{color:yellowgreen}
+        }
+        @keyframes bomb {
+            0%{font-size: 700%;}
+            100%{font-size: 500%;}
+        }
+        #tform{
+            animation-name: tcolor;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        #tgmim:hover{
+            animation-name: bomb;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        body :hover{
+            
+
+        }
+</style>
+<body>
+    <center><h3><span id="tgmim"><span id="tform">알바천국</span></span></h3></center>
+<hr>
+<form action="login.php" method="get">
+    <span id="search"> <input type="text" placeholder="검색어를 입력해주세요."></span>
+</form>
+<nav>
+    
+<ul>
+    
+        <li><a href="http://www.alba.co.kr/Main.asp">전체메뉴</a></li>
+        <li><a href="http://www.alba.co.kr/job/Main.asp">채용정보</a></li>
+        <li><a href="http://www.alba.co.kr/job/annex/Brand.asp">브랜드알바</a></li>
+        <li><a href="http://www.alba.co.kr/resume/Main.asp">인재정보</a></li>
+        <li><a href="http://www.alba.co.kr/story/Main.asp">알바스토리</a></li>
+        <li><a href="https://www.alba.co.kr/auth/LoginPop.asp?gourl=https%3A%2F%2Fwww.alba.co.kr%2Fmain.asp">로그인</a></li>
+    </ul>
+    
+    </nav>
+            <td><a><img src="img/이미지.jpg" alt=width="70%"></a></td>
+            <td><a><img src="img/이미지2.jpg" alt=width="70%"></a></td>
+            <iframe width="600" height="835" src="https://www.youtube.com/embed/Haqz2FE2vr4?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
